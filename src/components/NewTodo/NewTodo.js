@@ -40,6 +40,7 @@ const NewTodo = (props) => {
           name="desc"
           value={desc}
           onChange={handleChange}
+          required
         />
       </div>
       <button type="submit">Add todo</button>
